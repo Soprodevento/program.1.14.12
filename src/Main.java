@@ -6,7 +6,6 @@ public class Main {
     }
 
     public static String checkWeekend(String weekday) {
-        String result = (weekday == "Saturday" || weekday == "Sunday") ? "Ура, выходной!" : "Надо еще поработать";
-        return result;
+        return  (weekday == "Saturday" || weekday == "Sunday") ? "Ура, выходной!" : "Надо еще поработать";
     }
 }
